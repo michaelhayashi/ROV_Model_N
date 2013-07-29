@@ -1,0 +1,77 @@
+Pins we maybe can't use
+PC14	> to other external oscilator
+PC15 
+
+PA13	> swd programming pins
+PA14
+
+PB9	> Audio SCA & SCL
+PB6 
+
+PC7	
+PC10	> i2s3 
+PC12
+PA4
+
+PD4	> audio reset
+
+PC3	> PDM out >Double check these!
+PC4	
+
+PC3	> PDM out
+PB10	> CLk in
+
+PA9	> USB OTG	
+PA11
+PA12
+PA10
+
+PC0	> OTG Power
+
+PD5	> OTH Over current
+
+PA0	> wake up button
+
+PA7	> SPI1 mosi
+PA5	> spi1 sck
+
+PE3	>cs spi????????
+PA6	> spi1 miso
+
+
+PE0	> MEMS init
+PE1
+
+PD12	> Greeb Led
+PD13	> Orange Led
+PD14	> Red Led
+PD15	> Blue Led
+
+11:60 reduction
+
+
+Pins we need for things (not specific)
+
+Already on discovery 
+SPI1 - onboard accelerometer SPI1: PA7, PA6, PA5, Enable x2: PE0, PE1, why PE3 is needed is unknown
+NRST - already implemented - NRST
+Debug Led - can use ones on dev board - PD12, PD13, PD14, PD15
+
+Need to put on board
+i2c1 - IMU  - PB8, PB7
+4x GPIO - for water detection  - Input floating: PD0, PC12, PC11, PC10
+1x PWM - Turner motors - TIM1: PE9, PE11, PE13, PE14 - May not need all!
+2x GPIO - motor selection - Output push pull: PE8, PE7
+1x GPIO for fuse blown - Input floating:PE10
+SPI2 - for solenoid selection - SPI2: PB15, PB10, PD3, PD2
+5x ADC - for power sensing - ADC1: PA1, PA4, PB0, PB1, PC5
+2x uart - 1 for tether - Usart2: PD6, PA2 
+Usart6: PC7, PC6 - Motor bus also need PC8, PC9
+2x GPIO - for camera selection PC11, PC12
+
+Pb5 for MOTOR DIR
+
+4x Extra GIPO: PD7, PE6, PE4, PE2
+
+296-22711-6-ND - shift register
+BCV46

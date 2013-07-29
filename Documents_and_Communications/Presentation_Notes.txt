@@ -1,0 +1,45 @@
+CAUTION: The PowerPoint presentation is for practice purposes only! The presentation should be given extemporaneously using only the vehicle and binders as aids.
+
+Schedule:
+Judges Introduce Themselves
+We Introduce ourselves individually
+  Name
+  Year (going in to)
+  Years on team
+  What "team" you worked on (electrical/mechanical/communications/etc)
+Hand judges their binders
+
+Presenter #1 (Team spokesperson)
+  Introduction
+  Mission Theme
+  Intro to Model N
+    "ground up for mission" speech
+Presenter #2 (Co-lead ME)
+  Manipulator
+  Measuring Tool
+  Turning Motors
+  Thrusters
+Presenter #3 (Co-lead ME)
+  Electronics Box
+  Frame
+  Cameras
+Presenter #4 (Mechanical assembler)
+  Buoyancy & Ballast
+  Tether
+  Pneumatics
+Presenter #5 (Hardware EE)
+  Transmissometer
+  Electronics
+Presenter #6 (Coding CompE)
+  Software
+    Main board & Basestation
+    GUI
+Presenter #7 (Pilot & CompE)
+  Software
+    Controls & Piloting
+Presenter *8 (Team Captain)
+  Expenses
+  Scheduling
+  Safety
+  Outreach
+  Acknowledgements
